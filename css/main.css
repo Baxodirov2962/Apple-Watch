@@ -258,14 +258,59 @@ body {
 }
 .features__item-link::before {
     content: "";
-    width: 55px;
+    width: 50px;
     height: 3px;
     background-color: var(--primary-color);
     margin-right: 10px;
     transition: width 0.4s ease;
 }
 .features__item-link:hover::before {
-    width: 50px;
+    width: 55px;
 }
 /* FEATURES STYLES END */
+
+/* BRAND STYLES */
+.brand {
+    padding: 70px 0;
+}
+.brand__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brand__btn {
+    padding: 12px 90px;
+}
+.brand__img {
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+}
+/* BRAND STYLES END */
+
+/* MAIN BOTTOM STYLES */
+.main-bottom {
+    padding: 240px 0;
+    background-image: url("../images/jpg/runners.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.main-bottom__container {
+    display: flex;
+    justify-content: flex-end;
+}
+.main-bottom__title {
+    color: var(--white-text-color);
+}
+.main-bottom__text {
+    border-left-color: var(--white-text-color);
+    color: var(--white-text-color);
+}
+.main-bottom__btn {
+    padding: 12px 46px;
+}
+/* MAIN BOTTOM STYLES END */
+
 /* MAIN STYLES END */
